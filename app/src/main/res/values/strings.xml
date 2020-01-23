@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Test_amoCRM</string>
+    <string name="error_code_110"> Неправильный логин или пароль</string>
+    <string name="error_code_111"> Авторизуйтесь в аккаунте через браузер, введя код капчи</string>
+    <string name="error_code_112"> Пользователь не состоит в аккаунте</string>
+    <string name="error_code_113"> Доступ к данному аккаунту запрещён с Вашего IP адреса</string>
+    <string name="error_code_101"> Запрос к несуществующему аккаунту</string>
+    <string name="error_code_400"> Bad request. You must re-login</string>
+    <string name="error_code_401"> Unauthorized</string>
+    <string name="error_code_403"> Forbidden</string>
+    <string name="error_code_404"> Not found</string>
+    <string name="error_code_500"> Internal server error</string>
+    <string name="error_code_502"> Bad gateway</string>
+    <string name="error_code_503"> Service unavailable</string>
+    <string name="error_code"> Error code: </string>
+    <string name="error_undefined"> Undefined error: </string>
+    <string name="error_server"> Ошибка на стороне сервера. Повторите авторизацию позже</string>
+    <string name="failed_load_data">Не удалось загрузить данные,  попробуйте еще раз</string>
+    <string name="repeat_request">Повторить запрос</string>
+    <string name="failed_login">Не удалось авторизоваться,  попробуйте еще раз</string>
+    <string name="repeat_login">Повторить авторизацию</string>
+    <string name="string_currents">%d р.</string>
+
 </resources>

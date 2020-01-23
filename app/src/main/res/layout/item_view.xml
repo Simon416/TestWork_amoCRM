@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:text="Название сделки:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:text="text"
+            android:id="@+id/txNameDealView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:text="Бюджет:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/txSaleView"
+            android:text="text:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:text="Дата создания:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:textSize="20sp"
+            android:text="text"
+            android:id="@+id/txDateCreateView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/statusView"
+            android:textStyle="italic"
+            android:textColor="@color/colorOrange"
+            android:textSize="24sp"
+            android:text="Статус сделки:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:textSize="20sp"
+            android:text="text"
+            android:id="@+id/txDateStateView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
